@@ -1,0 +1,55 @@
+﻿@inherits LayoutComponentBase
+@page "/documento"
+<body onload="window.print()">
+    <br />
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="invoice-title">
+                    <h2>Fatura</h2><h3 class="pull-right">Pedido # 12345</h3>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <address>
+                            <strong>Faturada para:</strong><br>
+                            Manoel Ribeiro<br>
+                            Rua Projetada 100<br>
+                            Apto. 4B<br>
+                            São Paulo - SP
+                        </address>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <address>
+                            <strong>Método de Pagamento:</strong><br>
+                            Visa final **** 4242<br>
+                            manoel@email.com
+                        </address>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <address>
+                            <strong>Data Pedido:</strong><br>
+                            30 de Outubro de 2020<br><br>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Resultado de cálculo dos pesos</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
