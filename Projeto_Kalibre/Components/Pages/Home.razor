@@ -141,10 +141,10 @@
 		<button class="print-btn" @onclick="Imprimir">Imprimir</button>
 
 		<div class="results">
-			<h5>Média das amostras: @calc.mediaAmostra</h5>
-			<h5>Peso mínimo: @calc.ResultadoMin</h5>
-			<h5>Peso médio: @calc.ResultadoMed</h5>
-			<h5>Peso máximo: @calc.ResultadoMax</h5>
+			<h5>Média das amostras: @Math.Round(calc.mediaAmostra,2)</h5>
+			<h5>Peso mínimo: @Math.Round(calc.ResultadoMin,2)</h5>
+			<h5>Peso médio: @Math.Round(calc.ResultadoMed,2)</h5>
+			<h5>Peso máximo: @Math.Round(calc.ResultadoMax,2)</h5>
 		</div>
 	</div>
 </div>
